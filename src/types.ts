@@ -42,6 +42,10 @@ export interface Product {
   rating: number;
 }
 
+export interface Users {
+  name: string;
+}
+
 export interface PaginationParams {
   [param: string]:
     | string
